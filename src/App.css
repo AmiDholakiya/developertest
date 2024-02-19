@@ -1,0 +1,16 @@
+.App {
+  min-height: 100vh;
+}
+
+.App-body {
+  position: absolute;
+  width: 75%;
+  left: 25%;
+}
+
+@media (max-width: 767px) {
+  .App-body {
+    width: 100%;
+    left: 0%
+  }
+}
